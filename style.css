@@ -1,0 +1,565 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.b1 {
+  background-image: url("Images/Fron8.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 1000px;
+}
+
+.nv {
+  z-index: 1;
+  padding: 40px 20px;
+  position: relative;
+}
+
+nav a {
+  color: #ddd;
+  text-decoration: none;
+  font-family: "Optima", sans-serif;
+  position: relative;
+}
+
+nav a:hover {
+  color: grey;
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+nav::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.nav-links {
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  font-size: 1em;
+  float: right;
+  justify-content: space-around;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.nav-links li {
+  display: inline;
+}
+
+.logo {
+  width: 140px;
+  position: relative;
+}
+
+.logo2 {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  min-height: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.more {
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  position: relative;
+  bottom: 600px;
+  height: auto;
+  width: auto;
+}
+.comment {
+  padding-left: 20px;
+  width: 100%;
+  padding-bottom: 100px;
+  font-size: 1em;
+  font-family: Trebuchet MS, sans-serif;
+}
+.call {
+  text-decoration: none;
+  text-align: center;
+}
+
+.call2 {
+  background-color: black;
+  text-decoration: none;
+  padding: 20px;
+  color: #ddd;
+  position: relative;
+  top: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 0.8em;
+  font-weight: 400;
+  text-align: center;
+}
+
+.call a:hover {
+  background-color: #c6c9ce;
+  color: black;
+  transition: 0.4s;
+}
+
+.b2 {
+  background-image: url("Images/wedding3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 800px;
+}
+.comment2 {
+  padding-left: 20px;
+  width: 100%;
+  padding-bottom: 150px;
+  font-size: 1em;
+  font-family: Trebuchet MS, sans-serif;
+}
+.more2 {
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  position: relative;
+  bottom: 500px;
+  height: auto;
+  width: auto;
+  z-index: 1;
+}
+
+.b3 {
+  background-image: url("Images/lights.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 800px;
+}
+
+.comment3 {
+  padding-left: 20px;
+  width: 100%;
+  padding-bottom: 80px;
+  font-size: 1em;
+  font-family: Trebuchet MS, sans-serif;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+  font-size: 1.5em;
+  float: left;
+  padding-top: 40px;
+  list-style: none;
+}
+
+.icons {
+  background-color: #f9f9f9;
+  width: 100%;
+  height: 90px;
+}
+.social-icons a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.copyright {
+  font-size: 1em;
+  text-align: right;
+  padding-right: 20px;
+  padding-top: 15px;
+  font-family: Trebuchet MS, sans-serif;
+  font-weight: bold;
+}
+
+.contactimage {
+  background-image: url("Images/contact2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 400px;
+}
+.contact1 {
+  color: white;
+  text-align: center;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  z-index: 1;
+  font-size: 2.5em;
+  width: 300px;
+}
+
+.contact2 {
+  background: rgba(0, 0, 0, 0.8);
+  bottom: 150px;
+  left: 100px;
+  color: #ddd;
+  position: relative;
+}
+
+.map2 {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  filter: brightness(0.9) saturate(5%);
+}
+
+.contactinfo {
+  display: flex;
+  text-decoration: none;
+  padding-bottom: 20px;
+  justify-content: space-around;
+}
+
+.infoemails {
+  width: 400px;
+  margin: 20px 0;
+  line-height: 30px;
+  font-family: Courier, monospace;
+}
+
+.hours {
+  width: 700px;
+  height: 400px;
+  margin: 20px 0;
+  border-collapse: collapse;
+}
+
+.hours td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+  font-family: Andale Mono, monospace;
+  font-size: 1.09em;
+}
+
+.hours thead {
+  background-color: rgba(0, 0, 0, 0.8);
+  font-weight: bold;
+  color: #ddd;
+  font-size: 1.2em;
+}
+
+.hours tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.contactinfo a {
+  color: inherit;
+}
+.allforms {
+  padding-left: 200px;
+  padding-bottom: 50px;
+  font-family: "Courier New", Courier, monospace;
+}
+.infoemail1 {
+  padding-bottom: 30px;
+}
+
+label,
+input {
+  display: block;
+  width: 400px;
+  line-height: 20px;
+}
+
+.name {
+  float: left;
+  margin-right: 20px;
+}
+
+.lastname {
+  float: left;
+}
+
+.email input {
+  clear: both;
+  width: 820px;
+}
+
+.submit input {
+  margin-top: 10px;
+  width: 150px;
+  height: 60px;
+  font-size: 1em;
+  text-decoration: none;
+  list-style: none;
+  border: 2px solid black;
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+  background-color: white;
+}
+
+#submit:hover {
+  background-color: black;
+  color: white;
+  width: 150px;
+  transition: 0.4s;
+}
+
+.companyimg {
+  background-image: url("Images/company3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 400px;
+}
+
+.company1 {
+  color: white;
+  text-align: center;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  z-index: 1;
+  font-size: 2.5em;
+  width: 400px;
+}
+
+.company2 {
+  background: rgba(0, 0, 0, 0.7);
+  bottom: 150px;
+  left: 80px;
+  color: #ddd;
+  position: relative;
+  height: 100px;
+}
+
+.allevents {
+  display: flex;
+  width: 80%;
+  font-family: FreeMono, monospace;
+  padding-bottom: 50px;
+}
+.aboutandmile {
+  padding-left: 100px;
+  position: relative;
+  left: 350px;
+  text-align: start;
+}
+
+.milestones {
+  line-height: 240px;
+}
+
+.events {
+  font-size: 1em;
+  position: relative;
+  margin-left: 700px;
+}
+
+.services1 {
+  color: white;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+  z-index: 1;
+  font-size: 2em;
+  width: 400px;
+  padding-top: 100px;
+}
+
+.services2 {
+  left: 15px;
+  color: black;
+  position: relative;
+  font-family: Georgia, serif;
+  font-weight: bold;
+}
+
+.djimg {
+  background-image: url("Images/dj6.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 700px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.music {
+  padding-left: 20px;
+  padding-bottom: 10px;
+  line-height: 40px;
+  font-family: Georgia, serif;
+}
+
+.light {
+  background-image: url("Images/light.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 700px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.audio {
+  background-image: url("Images/audio.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 700px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.stage {
+  background-image: url("Images/stage2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 700px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.fireworks {
+  background-image: url("Images/fireworks.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 700px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.party {
+  text-align: center;
+  padding-top: 70px;
+  font-family: OCR A Std, monospace;
+  padding-bottom: 30px;
+  font-size: 1.1em;
+}
+
+.alltable {
+  width: 100%;
+  margin-top: 100px;
+  height: auto;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table td {
+  border: 1px solid rgba(156, 154, 154, 0.9);
+  font-family: Didot, serif;
+  padding: 1px 10px;
+  position: relative;
+  white-space: nowrap;
+  height: 40px;
+  font-size: 1.1em;
+}
+
+.tablef {
+  width: 50%;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+.sold {
+  display: inline-block;
+  background: rgba(245, 63, 63, 0.9);
+  border-radius: 3px;
+  margin-left: 10px;
+  font-size: 0.8em;
+  padding: 2px 4px;
+}
+
+.the3 {
+  position: absolute;
+  right: 10px;
+  background: rgba(75, 75, 75, 0.7);
+  border-radius: 20px;
+  padding: 2px 7px;
+  font-size: 0.7em;
+  color: #f9f9f9;
+  top: 30%;
+}
+
+.parisfirst {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.containerParis {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.ParisImg {
+  background-image: url("Images/paris5.jpg");
+  width: 600px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid rgba(156, 154, 154, 0.9);
+  border-radius: 5px;
+}
+
+.germanyimg {
+  background-image: url("Images/ger2.jpg");
+  width: 600px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid rgba(156, 154, 154, 0.9);
+  border-radius: 5px;
+}
+
+.belgiumimg {
+  background-image: url("Images/bel1.jpg");
+  width: 600px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid rgba(156, 154, 154, 0.9);
+  border-radius: 5px;
+}
+
+.parisfirst {
+  color: black;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.pariscont {
+  text-align: center;
+  color: #f9f9f9;
+  padding-top: 250px;
+  line-height: 35px;
+  font-family: "Courier New";
+}
+
+.tickets a {
+  background-color: rgba(0, 0, 0, 10);
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  font-size: 1em;
+  color: #f9f9f9;
+}
+
+.tickets a:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
